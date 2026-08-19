@@ -33,6 +33,10 @@ def test_release_identity_and_repository_url() -> None:
     )
     for text in (readme, citation, manuscript):
         assert REPOSITORY_URL in text
+        assert "Lei Tang" not in text
+        assert "0009-0006-7762-8105" not in text
+    assert citation.count("family-names:") == 1
+    assert "family-names: Wei" in citation
 
 
 def test_release_has_explicit_code_and_data_licences() -> None:
@@ -72,6 +76,7 @@ def test_release_manifest_is_complete_and_hashes_match() -> None:
         for path in RELEASE.rglob("*")
         if path.is_file()
         and path.name != manifest_path.name
+        and ".git" not in path.parts
         and path.suffix != ".pyc"
         and "__pycache__" not in path.parts
         and ".pytest_cache" not in path.parts

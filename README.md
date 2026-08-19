@@ -1,6 +1,6 @@
 # Leakage-aware pediatric pneumonia classification: code and derived data
 
-This repository accompanies the manuscript *Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs* by Lei Tang and Bizhi Wei.
+This repository accompanies the manuscript *Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs* by Bizhi Wei.
 
 Public repository: https://github.com/Bizhi-Wei/chest-radiographs
 

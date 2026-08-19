@@ -4,4 +4,4 @@ Except where otherwise noted, the derived non-code materials in this repository,
 
 To view the licence, visit https://creativecommons.org/licenses/by/4.0/legalcode.
 
-Attribution should identify Lei Tang and Bizhi Wei and cite the accompanying manuscript or this repository. This licence does not apply to original Kermany radiographs, PneumoniaMNIST arrays, other third-party datasets or third-party material. Those materials remain governed by their original providers' terms.
+Attribution should identify Bizhi Wei and cite the accompanying manuscript or this repository. This licence does not apply to original Kermany radiographs, PneumoniaMNIST arrays, other third-party datasets or third-party material. Those materials remain governed by their original providers' terms.

@@ -2,23 +2,15 @@
 
 
 
-Lei Tang<sup>1</sup> ([ORCID](https://orcid.org/0009-0006-7762-8105)), Bizhi Wei<sup>2,*</sup> ([ORCID](https://orcid.org/0009-0008-9481-3024))
+Bizhi Wei<sup>1,*</sup> ([ORCID](https://orcid.org/0009-0008-9481-3024))
 
 
 
-<sup>1</sup> School of Economics and Management, Kunming University of Science and Technology Oxbridge College, No. 1369 Yunqiao Street, Guandu District, Kunming 650211, Yunnan Province, China
-
-
-
-<sup>2</sup> Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China
+<sup>1</sup> Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China
 
 
 
 <sup>*</sup>Correspondence: Bizhi Wei, Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China. Email: 15619056250wbz@gmail.com. Telephone: +86 15619056250
-
-
-
-Lei Tang: Email 2231198734tanglei@gmail.com; ORCID https://orcid.org/0009-0006-7762-8105
 
 
 
@@ -311,7 +303,7 @@ None.
 
 ## Author contributions
 
-Lei Tang: Conceptualization, Methodology, Supervision, Writing – original draft, and Writing – review & editing. Bizhi Wei: Conceptualization, Data curation, Software, Formal analysis, Investigation, Validation, Visualization, Project administration, Writing – original draft, and Writing – review & editing. All authors read and approved the final manuscript.
+Bizhi Wei: Conceptualization, Methodology, Data curation, Software, Formal analysis, Investigation, Validation, Visualization, Supervision, Project administration, Writing – original draft, and Writing – review & editing.
 
 
 
@@ -333,7 +325,7 @@ Not applicable. This study contains no identifiable individual-level data, image
 
 ### Declaration of conflicting interest
 
-The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
+The author declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
 
 
 
@@ -345,7 +337,7 @@ This research received no external funding.
 
 ### Use of generative artificial intelligence
 
-OpenAI Codex was used to assist with the development and review of analysis scripts, consistency checking, document formatting and language editing. The authors executed the analysis workflow and independently verified all statistical outputs, citations, interpretations and final text. The tool was not used to generate or modify source radiographs or to fabricate research data. The authors take full responsibility for the content of the manuscript.
+OpenAI Codex was used to assist with the development and review of analysis scripts, consistency checking, document formatting and language editing. The author executed the analysis workflow and independently verified all statistical outputs, citations, interpretations and final text. The tool was not used to generate or modify source radiographs or to fabricate research data. The author takes full responsibility for the content of the manuscript.
 
 
 

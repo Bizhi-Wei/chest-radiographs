@@ -207,7 +207,7 @@ def copy_file(source: Path, destination: Path) -> None:
 def write_release_documents() -> None:
     readme = """# Leakage-aware pediatric pneumonia classification: code and derived data
 
-This repository accompanies the manuscript *Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs* by Lei Tang and Bizhi Wei.
+This repository accompanies the manuscript *Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs* by Bizhi Wei.
 
 Public repository: {PUBLIC_REPOSITORY_URL}
 
@@ -236,9 +236,6 @@ message: "If you use this code or derived data, please cite the accompanying man
 title: "Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs: code and derived data"
 type: software
 authors:
-  - family-names: Tang
-    given-names: Lei
-    orcid: "https://orcid.org/0009-0006-7762-8105"
   - family-names: Wei
     given-names: Bizhi
     orcid: "https://orcid.org/0009-0008-9481-3024"
@@ -266,7 +263,7 @@ keywords:
 """
     mit_license = """MIT License
 
-Copyright (c) 2026 Lei Tang and Bizhi Wei
+Copyright (c) 2026 Bizhi Wei
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the \"Software\"), to deal
@@ -292,7 +289,7 @@ Except where otherwise noted, the derived non-code materials in this repository,
 
 To view the licence, visit https://creativecommons.org/licenses/by/4.0/legalcode.
 
-Attribution should identify Lei Tang and Bizhi Wei and cite the accompanying manuscript or this repository. This licence does not apply to original Kermany radiographs, PneumoniaMNIST arrays, other third-party datasets or third-party material. Those materials remain governed by their original providers' terms.
+Attribution should identify Bizhi Wei and cite the accompanying manuscript or this repository. This licence does not apply to original Kermany radiographs, PneumoniaMNIST arrays, other third-party datasets or third-party material. Those materials remain governed by their original providers' terms.
 """
     (RELEASE / "README.md").write_text(readme.format(PUBLIC_REPOSITORY_URL=PUBLIC_REPOSITORY_URL), encoding="utf-8")
     (RELEASE / "CITATION.cff").write_text(citation.format(PUBLIC_REPOSITORY_URL=PUBLIC_REPOSITORY_URL), encoding="utf-8")
