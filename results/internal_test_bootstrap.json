@@ -1,0 +1,333 @@
+{
+  "policy": {
+    "threshold_source": "internal_validation_only",
+    "bootstrap_samples": 1000,
+    "bootstrap_seed": 20260805
+  },
+  "models": {
+    "ResNet18": {
+      "default": {
+        "method": "patient_group_cluster_bootstrap",
+        "interval": "percentile_95",
+        "resampling_unit": "inferred patient/group",
+        "group_membership": "all images retained for each sampled group occurrence",
+        "groups": 461,
+        "requested_samples": 1000,
+        "valid_two_class_samples": 1000,
+        "skipped_single_class_samples": 0,
+        "valid_samples_by_metric": {
+          "accuracy": 1000,
+          "balanced_accuracy": 1000,
+          "f1": 1000,
+          "sensitivity": 1000,
+          "specificity": 1000,
+          "ppv": 1000,
+          "npv": 1000,
+          "roc_auc": 1000,
+          "pr_auc": 1000,
+          "brier": 1000,
+          "nll": 1000,
+          "ece": 1000,
+          "predicted_positive_proportion": 1000
+        },
+        "seed": 20260805,
+        "intervals": {
+          "accuracy": [
+            0.9617279779779779,
+            0.9826408179012345
+          ],
+          "balanced_accuracy": [
+            0.9587890684179171,
+            0.9833330173943475
+          ],
+          "f1": [
+            0.9731482605643202,
+            0.9879172824664565
+          ],
+          "sensitivity": [
+            0.9598827676883024,
+            0.985483929491081
+          ],
+          "specificity": [
+            0.9471316191674908,
+            0.988471189591078
+          ],
+          "ppv": [
+            0.9798299039241865,
+            0.9959019185241436
+          ],
+          "npv": [
+            0.8958333333333334,
+            0.9619783895653848
+          ],
+          "roc_auc": [
+            0.9948008825146747,
+            0.9984700857150586
+          ],
+          "pr_auc": [
+            0.9979931457171837,
+            0.9994578109768465
+          ],
+          "brier": [
+            0.017032727862733698,
+            0.02834189553458436
+          ],
+          "nll": [
+            0.06698390081080219,
+            0.09755591819905228
+          ],
+          "ece": [
+            0.025366904717816424,
+            0.041693095253410646
+          ],
+          "predicted_positive_proportion": [
+            0.6682890519869724,
+            0.7603833865814696
+          ]
+        }
+      },
+      "internal_validation_selected": {
+        "method": "patient_group_cluster_bootstrap",
+        "interval": "percentile_95",
+        "resampling_unit": "inferred patient/group",
+        "group_membership": "all images retained for each sampled group occurrence",
+        "groups": 461,
+        "requested_samples": 1000,
+        "valid_two_class_samples": 1000,
+        "skipped_single_class_samples": 0,
+        "valid_samples_by_metric": {
+          "accuracy": 1000,
+          "balanced_accuracy": 1000,
+          "f1": 1000,
+          "sensitivity": 1000,
+          "specificity": 1000,
+          "ppv": 1000,
+          "npv": 1000,
+          "roc_auc": 1000,
+          "pr_auc": 1000,
+          "brier": 1000,
+          "nll": 1000,
+          "ece": 1000,
+          "predicted_positive_proportion": 1000
+        },
+        "seed": 20260805,
+        "intervals": {
+          "accuracy": [
+            0.9628289876228104,
+            0.9839274418286573
+          ],
+          "balanced_accuracy": [
+            0.9581713891495346,
+            0.9831007567051427
+          ],
+          "f1": [
+            0.9739000745712155,
+            0.9889187828503534
+          ],
+          "sensitivity": [
+            0.9640271566530559,
+            0.9875626138976615
+          ],
+          "specificity": [
+            0.9416666666666667,
+            0.9875
+          ],
+          "ppv": [
+            0.9773517754248278,
+            0.9952086170842974
+          ],
+          "npv": [
+            0.9052940286899412,
+            0.9676288001856579
+          ],
+          "roc_auc": [
+            0.9948008825146747,
+            0.9984700857150586
+          ],
+          "pr_auc": [
+            0.9979931457171837,
+            0.9994578109768465
+          ],
+          "brier": [
+            0.017032727862733698,
+            0.02834189553458436
+          ],
+          "nll": [
+            0.06698390081080219,
+            0.09755591819905228
+          ],
+          "ece": [
+            0.025366904717816424,
+            0.041693095253410646
+          ],
+          "predicted_positive_proportion": [
+            0.6714060882923674,
+            0.7632768351824475
+          ]
+        }
+      }
+    },
+    "MobileNetV3-Small": {
+      "default": {
+        "method": "patient_group_cluster_bootstrap",
+        "interval": "percentile_95",
+        "resampling_unit": "inferred patient/group",
+        "group_membership": "all images retained for each sampled group occurrence",
+        "groups": 461,
+        "requested_samples": 1000,
+        "valid_two_class_samples": 1000,
+        "skipped_single_class_samples": 0,
+        "valid_samples_by_metric": {
+          "accuracy": 1000,
+          "balanced_accuracy": 1000,
+          "f1": 1000,
+          "sensitivity": 1000,
+          "specificity": 1000,
+          "ppv": 1000,
+          "npv": 1000,
+          "roc_auc": 1000,
+          "pr_auc": 1000,
+          "brier": 1000,
+          "nll": 1000,
+          "ece": 1000,
+          "predicted_positive_proportion": 1000
+        },
+        "seed": 20260805,
+        "intervals": {
+          "accuracy": [
+            0.9290489187440999,
+            0.9601228646604612
+          ],
+          "balanced_accuracy": [
+            0.9443142096654569,
+            0.9692667946632748
+          ],
+          "f1": [
+            0.948273969907057,
+            0.9721773109394325
+          ],
+          "sensitivity": [
+            0.907753973572245,
+            0.9504807763528894
+          ],
+          "specificity": [
+            0.96616382056837,
+            0.9960788143382353
+          ],
+          "ppv": [
+            0.9862458254682737,
+            0.9984757832451239
+          ],
+          "npv": [
+            0.7937428862595621,
+            0.8841186958736628
+          ],
+          "roc_auc": [
+            0.9895105787090422,
+            0.9962977668066842
+          ],
+          "pr_auc": [
+            0.9960998096674964,
+            0.9987219994665143
+          ],
+          "brier": [
+            0.03804102625239537,
+            0.05402182308547418
+          ],
+          "nll": [
+            0.1494750588718215,
+            0.19362697885438598
+          ],
+          "ece": [
+            0.07836457789777934,
+            0.10378599931481441
+          ],
+          "predicted_positive_proportion": [
+            0.6312393593189964,
+            0.725165995418907
+          ]
+        }
+      },
+      "internal_validation_selected": {
+        "method": "patient_group_cluster_bootstrap",
+        "interval": "percentile_95",
+        "resampling_unit": "inferred patient/group",
+        "group_membership": "all images retained for each sampled group occurrence",
+        "groups": 461,
+        "requested_samples": 1000,
+        "valid_two_class_samples": 1000,
+        "skipped_single_class_samples": 0,
+        "valid_samples_by_metric": {
+          "accuracy": 1000,
+          "balanced_accuracy": 1000,
+          "f1": 1000,
+          "sensitivity": 1000,
+          "specificity": 1000,
+          "ppv": 1000,
+          "npv": 1000,
+          "roc_auc": 1000,
+          "pr_auc": 1000,
+          "brier": 1000,
+          "nll": 1000,
+          "ece": 1000,
+          "predicted_positive_proportion": 1000
+        },
+        "seed": 20260805,
+        "intervals": {
+          "accuracy": [
+            0.9493361400170875,
+            0.9741381539065007
+          ],
+          "balanced_accuracy": [
+            0.933278824538123,
+            0.9668303944111108
+          ],
+          "f1": [
+            0.964488441313888,
+            0.9824853761927561
+          ],
+          "sensitivity": [
+            0.9633570411720528,
+            0.9879893346261059
+          ],
+          "specificity": [
+            0.8906813266041816,
+            0.9567146215853113
+          ],
+          "ppv": [
+            0.957293910376475,
+            0.9837938537349152
+          ],
+          "npv": [
+            0.9024190323870452,
+            0.965703781512605
+          ],
+          "roc_auc": [
+            0.9895105787090422,
+            0.9962977668066842
+          ],
+          "pr_auc": [
+            0.9960998096674964,
+            0.9987219994665143
+          ],
+          "brier": [
+            0.03804102625239537,
+            0.05402182308547418
+          ],
+          "nll": [
+            0.1494750588718215,
+            0.19362697885438598
+          ],
+          "ece": [
+            0.07836457789777934,
+            0.10378599931481441
+          ],
+          "predicted_positive_proportion": [
+            0.6853152985074626,
+            0.7724605974907789
+          ]
+        }
+      }
+    }
+  }
+}

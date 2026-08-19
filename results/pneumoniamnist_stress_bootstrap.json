@@ -1,0 +1,444 @@
+{
+  "policy": {
+    "threshold_source": "internal_validation_only",
+    "temperature_source": "internal_validation_only",
+    "pneumoniamnist_threshold_optimization": false,
+    "pneumoniamnist_temperature_refit": false
+  },
+  "models": {
+    "ResNet18": {
+      "default_0.5": {
+        "method": "patient_group_bootstrap",
+        "groups": 68,
+        "requested_samples": 1000,
+        "valid_samples": 1000,
+        "seed": 20260804,
+        "intervals": {
+          "accuracy": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "balanced_accuracy": [
+            0.5,
+            0.5
+          ],
+          "f1": [
+            0.7284177669042898,
+            0.8927652983524851
+          ],
+          "sensitivity": [
+            1.0,
+            1.0
+          ],
+          "specificity": [
+            0.0,
+            0.0
+          ],
+          "ppv": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "npv": [
+            NaN,
+            NaN
+          ],
+          "roc_auc": [
+            0.7619259699746945,
+            0.9277214203783632
+          ],
+          "pr_auc": [
+            0.8387460969634637,
+            0.9749817203241998
+          ],
+          "brier": [
+            0.18074293322861196,
+            0.3982848927378654
+          ],
+          "nll": [
+            0.7573272317647934,
+            1.6968329727649687
+          ],
+          "ece": [
+            0.1813125241773193,
+            0.4089119267612695
+          ],
+          "predicted_positive_proportion": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "internal_validation_selected": {
+        "method": "patient_group_bootstrap",
+        "groups": 68,
+        "requested_samples": 1000,
+        "valid_samples": 1000,
+        "seed": 20260804,
+        "intervals": {
+          "accuracy": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "balanced_accuracy": [
+            0.5,
+            0.5
+          ],
+          "f1": [
+            0.7284177669042898,
+            0.8927652983524851
+          ],
+          "sensitivity": [
+            1.0,
+            1.0
+          ],
+          "specificity": [
+            0.0,
+            0.0
+          ],
+          "ppv": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "npv": [
+            NaN,
+            NaN
+          ],
+          "roc_auc": [
+            0.7619259699746945,
+            0.9277214203783632
+          ],
+          "pr_auc": [
+            0.8387460969634637,
+            0.9749817203241998
+          ],
+          "brier": [
+            0.18074293322861196,
+            0.3982848927378654
+          ],
+          "nll": [
+            0.7573272317647934,
+            1.6968329727649687
+          ],
+          "ece": [
+            0.1813125241773193,
+            0.4089119267612695
+          ],
+          "predicted_positive_proportion": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "MobileNetV3-Small": {
+      "default_0.5": {
+        "method": "patient_group_bootstrap",
+        "groups": 68,
+        "requested_samples": 1000,
+        "valid_samples": 1000,
+        "seed": 20260804,
+        "intervals": {
+          "accuracy": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "balanced_accuracy": [
+            0.5,
+            0.5
+          ],
+          "f1": [
+            0.7284177669042898,
+            0.8927652983524851
+          ],
+          "sensitivity": [
+            1.0,
+            1.0
+          ],
+          "specificity": [
+            0.0,
+            0.0
+          ],
+          "ppv": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "npv": [
+            NaN,
+            NaN
+          ],
+          "roc_auc": [
+            0.8320493278833272,
+            0.964323812947111
+          ],
+          "pr_auc": [
+            0.9157030499753276,
+            0.9877628252339262
+          ],
+          "brier": [
+            0.12961715422570705,
+            0.24678011983633039
+          ],
+          "nll": [
+            0.41496907696127894,
+            0.6783855438232422
+          ],
+          "ece": [
+            0.12755948296984818,
+            0.28974477669414206
+          ],
+          "predicted_positive_proportion": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "internal_validation_selected": {
+        "method": "patient_group_bootstrap",
+        "groups": 68,
+        "requested_samples": 1000,
+        "valid_samples": 1000,
+        "seed": 20260804,
+        "intervals": {
+          "accuracy": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "balanced_accuracy": [
+            0.5,
+            0.5
+          ],
+          "f1": [
+            0.7284177669042898,
+            0.8927652983524851
+          ],
+          "sensitivity": [
+            1.0,
+            1.0
+          ],
+          "specificity": [
+            0.0,
+            0.0
+          ],
+          "ppv": [
+            0.57284375,
+            0.8063019860804617
+          ],
+          "npv": [
+            NaN,
+            NaN
+          ],
+          "roc_auc": [
+            0.8320493278833272,
+            0.964323812947111
+          ],
+          "pr_auc": [
+            0.9157030499753276,
+            0.9877628252339262
+          ],
+          "brier": [
+            0.12961715422570705,
+            0.24678011983633039
+          ],
+          "nll": [
+            0.41496907696127894,
+            0.6783855438232422
+          ],
+          "ece": [
+            0.12755948296984818,
+            0.28974477669414206
+          ],
+          "predicted_positive_proportion": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "paired_shift": {
+    "MobileNetV3-Small|PneumoniaMNIST_28x28|NORMAL": {
+      "mean_probability_shift": {
+        "estimate": 0.5719222398474813,
+        "95%_ci": [
+          0.5346104109111954,
+          0.610906475322942
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8529411764705882,
+          1.0
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8529411764705882,
+          1.0
+        ]
+      }
+    },
+    "MobileNetV3-Small|PneumoniaMNIST_28x28|PNEUMONIA": {
+      "mean_probability_shift": {
+        "estimate": -0.06559162469286668,
+        "95%_ci": [
+          -0.10464574265809802,
+          -0.009912868903746555
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.013157894736842105,
+        "95%_ci": [
+          0.0,
+          0.04352766798418968
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.013157894736842105,
+        "95%_ci": [
+          0.0,
+          0.04352766798418968
+        ]
+      }
+    },
+    "MobileNetV3-Small|reconstructed_28x28|NORMAL": {
+      "mean_probability_shift": {
+        "estimate": 0.5413920385763049,
+        "95%_ci": [
+          0.5039138451413392,
+          0.5798910062247887
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8529411764705882,
+          1.0
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8529411764705882,
+          1.0
+        ]
+      }
+    },
+    "MobileNetV3-Small|reconstructed_28x28|PNEUMONIA": {
+      "mean_probability_shift": {
+        "estimate": -0.07723629631494221,
+        "95%_ci": [
+          -0.11619405572461461,
+          -0.02487953154434806
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.013157894736842105,
+        "95%_ci": [
+          0.0,
+          0.04687959558823529
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.013157894736842105,
+        "95%_ci": [
+          0.0,
+          0.04687959558823529
+        ]
+      }
+    },
+    "ResNet18|PneumoniaMNIST_28x28|NORMAL": {
+      "mean_probability_shift": {
+        "estimate": 0.8618710655719042,
+        "95%_ci": [
+          0.7998769415213781,
+          0.9097441570367664
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8333333333333334,
+          1.0
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8333333333333334,
+          1.0
+        ]
+      }
+    },
+    "ResNet18|PneumoniaMNIST_28x28|PNEUMONIA": {
+      "mean_probability_shift": {
+        "estimate": 0.06530600707781942,
+        "95%_ci": [
+          0.02382870582128399,
+          0.12958567467168322
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.06578947368421052,
+        "95%_ci": [
+          0.012044606999426277,
+          0.15492957746478872
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.06578947368421052,
+        "95%_ci": [
+          0.012044606999426277,
+          0.15492957746478872
+        ]
+      }
+    },
+    "ResNet18|reconstructed_28x28|NORMAL": {
+      "mean_probability_shift": {
+        "estimate": 0.8356440905481577,
+        "95%_ci": [
+          0.7789628460009892,
+          0.8814992794686672
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8333333333333334,
+          1.0
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.9375,
+        "95%_ci": [
+          0.8333333333333334,
+          1.0
+        ]
+      }
+    },
+    "ResNet18|reconstructed_28x28|PNEUMONIA": {
+      "mean_probability_shift": {
+        "estimate": 0.06475618089500226,
+        "95%_ci": [
+          0.022952740782880184,
+          0.13063292610478566
+        ]
+      },
+      "flip_rate": {
+        "estimate": 0.06578947368421052,
+        "95%_ci": [
+          0.011904761904761904,
+          0.15151515151515152
+        ]
+      },
+      "threshold_crossing_rate": {
+        "estimate": 0.06578947368421052,
+        "95%_ci": [
+          0.011904761904761904,
+          0.15151515151515152
+        ]
+      }
+    }
+  }
+}

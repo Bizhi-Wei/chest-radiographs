@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or derived data, please cite the accompanying manuscript."
+title: "Leakage-aware evaluation of deep learning for pediatric pneumonia classification on chest radiographs: code and derived data"
+type: software
+authors:
+  - family-names: Tang
+    given-names: Lei
+  - family-names: Wei
+    given-names: Bizhi
+    orcid: "https://orcid.org/0009-0008-9481-3024"
+version: 1.0.0
+date-released: 2026-08-05
+repository-code: "https://github.com/Bizhi-Wei/chest-radiographs"
+url: "https://github.com/Bizhi-Wei/chest-radiographs"
+keywords:
+  - pediatric pneumonia
+  - chest radiograph
+  - data leakage
+  - provenance audit
+  - calibration
+  - preprocessing shift

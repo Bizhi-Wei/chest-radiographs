@@ -1,0 +1,80 @@
+{
+  "terminology": "same-source preprocessing and resolution-shift stress test",
+  "independent_external_cohort": false,
+  "official_same_source_provenance": true,
+  "official_mapping_available": true,
+  "pneumoniamnist_test_n": 624,
+  "mapping_status_counts": {
+    "confirmed_match": 549,
+    "ambiguous_match": 48,
+    "unmatched": 26,
+    "probable_match": 1
+  },
+  "accepted_source_image_matches": 550,
+  "accepted_source_image_match_fraction": 0.8814102564102564,
+  "accepted_matches_by_internal_split": {
+    "train": 366,
+    "test": 109,
+    "val": 75
+  },
+  "accepted_patient_groups_by_internal_split": {
+    "train": 243,
+    "val": 51,
+    "test": 68
+  },
+  "ambiguous_n": 48,
+  "unmatched_n": 26,
+  "label_conflict_n": 0,
+  "one_source_to_multiple_pneumoniamnist_n": 0,
+  "multiple_source_to_one_pneumoniamnist_n": 0,
+  "clean_manifest_patient_cross_split_groups": 0,
+  "byte_exact_overlap_assessment": "Not applicable after the documented 28x28 transformation; source-image identity is inferred from official provenance plus reconstruction metrics.",
+  "limitations": [
+    "The official mapping uses MedMNIST source image IDs, whereas the local Kermany copy uses Kaggle-style filenames; local file identity therefore requires image reconstruction matching.",
+    "Failure to find a high-confidence local match is not evidence that source overlap is absent.",
+    "Embedding similarity was not used because official split/index metadata plus pixel, SSIM, NCC, and perceptual-hash evidence were available; ambiguous samples remain unforced."
+  ],
+  "match_thresholds": {
+    "confirmed": {
+      "mutual_top1": true,
+      "subtype_match": true,
+      "max_mse": 100.0,
+      "max_mae": 8.0,
+      "min_ncc": 0.985,
+      "min_ssim": 0.95,
+      "max_phash_distance": 12,
+      "max_dhash_distance": 14,
+      "min_second_to_first_mse_ratio": 1.2
+    },
+    "probable": {
+      "subtype_match": true,
+      "max_mse": 400.0,
+      "max_mae": 15.0,
+      "min_ncc": 0.95,
+      "min_ssim": 0.85,
+      "max_phash_distance": 18,
+      "max_dhash_distance": 20,
+      "min_second_to_first_mse_ratio": 1.1,
+      "requires_mutual_or_strong_margin": true
+    },
+    "ambiguous": {
+      "min_ncc": 0.8,
+      "min_ssim": 0.65
+    }
+  },
+  "primary_reconstruction_methods": [
+    "direct_pil_bilinear",
+    "aspect_fill_pil_bilinear",
+    "center_crop_pil_bilinear",
+    "center_crop_pil_bicubic",
+    "center_crop_cv_area",
+    "center_crop_skimage_linear"
+  ],
+  "diagnostic_reconstruction_methods": [
+    "center_crop_skimage_minmax",
+    "center_crop_skimage_inverted"
+  ],
+  "source_disjoint_subset_n": 108,
+  "source_disjoint_decision": "A",
+  "source_disjoint_manifest": "<project-root>/01_data/manifests/pneumoniamnist_source_disjoint_stress_test.csv"
+}

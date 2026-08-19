@@ -1,0 +1,4 @@
+﻿split,normal_images,pneumonia_images,total_images,normal_ratio,pneumonia_ratio
+train,1105,2972,4077,0.271033,0.728967
+val,237,637,874,0.271167,0.728833
+test,237,636,873,0.271478,0.728522
