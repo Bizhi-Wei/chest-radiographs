@@ -14,7 +14,7 @@ Lei Tang<sup>1</sup>, Bizhi Wei<sup>2,*</sup> ([ORCID](https://orcid.org/0009-00
 
 
 
-<sup>*</sup>Correspondence: Bizhi Wei, Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China. Email: 15619056250wbz@gmail.com
+<sup>*</sup>Correspondence: Bizhi Wei, Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China. Email: 15619056250wbz@gmail.com. Telephone: +86 15619056250
 
 
 
