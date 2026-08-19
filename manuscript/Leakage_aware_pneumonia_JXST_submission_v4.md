@@ -2,7 +2,7 @@
 
 
 
-Lei Tang<sup>1</sup>, Bizhi Wei<sup>2,*</sup> ([ORCID](https://orcid.org/0009-0008-9481-3024))
+Lei Tang<sup>1</sup> ([ORCID](https://orcid.org/0009-0006-7762-8105)), Bizhi Wei<sup>2,*</sup> ([ORCID](https://orcid.org/0009-0008-9481-3024))
 
 
 
@@ -15,6 +15,10 @@ Lei Tang<sup>1</sup>, Bizhi Wei<sup>2,*</sup> ([ORCID](https://orcid.org/0009-00
 
 
 <sup>*</sup>Correspondence: Bizhi Wei, Puai Medical College, Shaoyang University, Shaoyang 422000, Hunan Province, China. Email: 15619056250wbz@gmail.com. Telephone: +86 15619056250
+
+
+
+Lei Tang: Email 2231198734tanglei@gmail.com; ORCID https://orcid.org/0009-0006-7762-8105
 
 
 
@@ -299,18 +303,6 @@ The analysis code, provenance-audit scripts, evaluation scripts, consistency tes
 
 
 
-## Ethics approval
-
-This study used only publicly available, de-identified datasets and involved no direct interaction with human participants. Ethics approval and informed consent were therefore not required.
-
-
-
-## Funding
-
-This research received no external funding.
-
-
-
 ## Acknowledgements
 
 None.
@@ -323,9 +315,37 @@ Lei Tang: Conceptualization, Methodology, Supervision, Writing – original draf
 
 
 
-## Competing interests
+## Statements and Declarations
+
+
+
+### Ethical considerations
+
+This study used only publicly available, de-identified datasets and involved no direct interaction with human participants. Ethics approval and informed consent were therefore not required.
+
+
+
+### Consent for publication
+
+Not applicable. This study contains no identifiable individual-level data, images or videos requiring consent for publication.
+
+
+
+### Declaration of conflicting interest
 
 The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
+
+
+
+### Funding
+
+This research received no external funding.
+
+
+
+### Use of generative artificial intelligence
+
+OpenAI Codex was used to assist with the development and review of analysis scripts, consistency checking, document formatting and language editing. The authors executed the analysis workflow and independently verified all statistical outputs, citations, interpretations and final text. The tool was not used to generate or modify source radiographs or to fabricate research data. The authors take full responsibility for the content of the manuscript.
 
 
 

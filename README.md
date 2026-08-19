@@ -18,6 +18,8 @@ The release does not redistribute original Kermany radiographs, PneumoniaMNIST a
 
 Install `code/requirements.txt`, inspect the script headers for inputs, and run `pytest -q` for consistency checks. Thresholds and temperature-scaling parameters are loaded from internal-validation outputs; they must not be refitted on PneumoniaMNIST.
 
-## Licence status
+## Licences
 
-No reuse licence is granted by this release until the authors select and add an explicit code/data licence. Original datasets remain governed by their providers' terms.
+- Source code is licensed under the MIT License; see `LICENSE`.
+- Derived non-code materials, including tables, manifests, statistical outputs, manuscript text, reports and figures, are licensed under the Creative Commons Attribution 4.0 International License; see `LICENSE-DATA.md`.
+- Original radiographs, PneumoniaMNIST arrays and other third-party materials are not redistributed and remain governed by their providers' terms.

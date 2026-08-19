@@ -35,6 +35,16 @@ def test_release_identity_and_repository_url() -> None:
         assert REPOSITORY_URL in text
 
 
+def test_release_has_explicit_code_and_data_licences() -> None:
+    readme = (RELEASE / "README.md").read_text(encoding="utf-8")
+    mit = (RELEASE / "LICENSE").read_text(encoding="utf-8")
+    data_licence = (RELEASE / "LICENSE-DATA.md").read_text(encoding="utf-8")
+    assert "MIT License" in readme
+    assert "Creative Commons Attribution 4.0 International" in readme
+    assert "Permission is hereby granted" in mit
+    assert "creativecommons.org/licenses/by/4.0/legalcode" in data_licence
+
+
 def test_release_contains_no_prohibited_data_or_local_paths() -> None:
     prohibited_suffixes = {".jpeg", ".jpg", ".dcm", ".dicom", ".npz", ".pt", ".pth"}
     text_suffixes = {".csv", ".json", ".md", ".py", ".txt", ".cff"}
